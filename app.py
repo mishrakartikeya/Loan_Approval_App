@@ -42,4 +42,11 @@ def encode_input():
         "Loan_Amount_Term", "Credit_History", "Property_Area"
     ])
 
+input_df = encode_input()
 
+# Predict
+if st.button("Predict"):
+    prediction = model.predict(input_df)[0]
+    result = "✅ Approved" if prediction == 1 else "❌ Rejected"
+    st.subheader("Prediction Result:")
+    st.write(result)
