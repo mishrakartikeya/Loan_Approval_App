@@ -3,6 +3,7 @@ import pandas as pd
 import joblib
 
 model = joblib.load("loan_model.pkl")
+model_columns = joblib.load("model_columns.pkl")
 
 st.set_page_config(page_title="Loan Approval Predictor", page_icon="🏦")
 
