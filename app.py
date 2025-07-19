@@ -47,6 +47,8 @@ input_df = encode_input()
 
 # Predict
 if st.button("Predict"):
+    input_df = encode_input()
+    input_df = input_df[model_columns]
     prediction = model.predict(input_df)[0]
     result = "✅ Approved" if prediction == 1 else "❌ Rejected"
     st.subheader("Prediction Result:")
