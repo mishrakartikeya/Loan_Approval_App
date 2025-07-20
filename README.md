@@ -1,4 +1,4 @@
-#🏦 Loan Approval Prediction App
+# 🏦 Loan Approval Prediction App
 
 This is a Machine Learning project that predicts whether a loan application will be approved based on applicant details such as income, credit history, education, employment status, and more.
 
@@ -9,7 +9,7 @@ The project includes:
 
 ---
 
- 📌 Features
+## 📌 Features
 
 - ✅ User input form for all loan application fields
 - 🤖 Predicts loan approval (Approved / Rejected)
@@ -19,7 +19,7 @@ The project includes:
 
 ---
 
-# 🚀 Live Demo
+## 🚀 Live Demo
 
 👉 [Click here to try the app](https://loanapprovalapp-lntbkuskztcbrul2pzxrju.streamlit.app/)
 
